@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ 
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 3, 0.1);
+}
+ 
+h1 {
+    text-align: center;
+    color: #6a5acd; /* Tom de roxo */
+}
+ 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+label {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+}
+ 
+input[type="number"] {
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+}
+ 
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #6a5acd; /* Tom de roxo */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #483d9b; /* Tom de roxo mais escuro */
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+ 
+th, td {
+    padding: 10px;
+    text-align: ;
+    border-bottom: 1px solid #ddd;
+}
+ 
+th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+ 
+tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+ 
+ 
