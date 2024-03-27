@@ -1,79 +1,67 @@
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
- 
-.container {
-    max-width: 500px;
-    margin: 50px auto;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 3, 0.1);
-}
- 
-h1 {
-    text-align: center;
-    color: #6a5acd; /* Tom de roxo */
-}
- 
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
- 
-label {
-    font-size: 18px;
-    color: #333;
-    margin-right: 10px;
-}
- 
-input[type="number"] {
-    padding: 8px;
-    width: 50px;
-    text-align: center;
-}
- 
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #6a5acd; /* Tom de roxo */
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
- 
-input[type="submit"]:hover {
-    background-color: #483d9b; /* Tom de roxo mais escuro */
-}
- 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
- 
-th, td {
-    padding: 10px;
-    text-align: ;
-    border-bottom: 1px solid #ddd;
-}
- 
-th {
-    background-color: #f0f0f0;
-    color: #333;
-}
- 
-tr:hover {
-    background-color: #f5f5f5;
-}
- 
- 
- 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;background-image: radial-gradient(circle at 74.18% 116.45%, #ff7060 0, #ff8045 3.85%, #ff8f23 7.69%, #ff9e00 11.54%, #ffac00 15.38%, #ffb800 19.23%, #ffc300 23.08%, #ffcd00 26.92%, #e7d600 30.77%, #cdde00 34.62%, #b0e500 38.46%, #91ea00 42.31%, #6aef00 46.15%, #29f31d 50%, #00f647 53.85%, #00f966 57.69%, #00fb83 61.54%, #00fda0 65.38%, #00febd 69.23%, #00ffda 73.08%, #00fff6 76.92%, #00ffff 80.77%, #00ffff 84.62%, #00ffff 88.46%, #00fdff 92.31%, #00fbff 96.15%, #00f8ff 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #4caf50;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="submit"] {
+            width: calc(100% - 22px); /* Ajuste para compensar a largura da borda */
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="text"] {
+            color: #333;
+        }
+        input[type="submit"] {
+            background-image: radial-gradient(circle at 74.18% 116.45%, #ff6d8b 23.08%, #ff717a 26.92%, #ff7769 30.77%, #ff7e59 34.62%, #ff864a 38.46%, #ff8e3b 42.31%, #ff962c 46.15%, #f39d1d 50%, #e5a40c 53.85%, #d6ab00 57.69%, #c6b000 61.54%, #b5b600 65.38%, #a4bb13 69.23%, #90bf24 73.08%, #7bc234 76.92%, #63c645 80.77%, #43c855 84.62%, #00ca67 88.46%, #00cc78 92.31%, #00ce8a 96.15%, #00cf9d 100%);
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .resultado {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #e7f0e9;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .resultado h3 {
+            color: #4caf50;
+        }
+        .resultado p {
+            color: #333;
+        }
+        h6{
+            text-align: center;
+            color: #4caf50;
+            border: 2px solid;
+            background-image: radial-gradient(circle at 43.84% 120.44%, #ffe565 0, #ffd455 16.67%, #ffbc3e 33.33%, #f39d1d 50%, #e57e00 66.67%, #dc6300 83.33%, #d94c00 100%);
+            
+        }
