@@ -19,3 +19,16 @@
 - $salario_final: Armazena o salário final calculado.
 
 No geral, este código fornece uma estrutura básica para calcular o salário de um vendedor com base em suas metas de vendas. No entanto, podem haver considerações adicionais ou melhorias dependendo de requisitos específicos do negócio ou regulamentações.
+
+# Autor
+
+<a href="https://github.com/SamuelCmdeFarias">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/127852994?s=400&u=aa8dca012415519073ea519d6fd5800a32882bee&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Samuel Camargo</b></sub></a> <a href="https://github.com/SamuelCmdeFarias" title="Rocketseat">🚀</a>
+
+
+Feito por Samuel Camargo ❤️👋🏽. Entre em contato!
+
+
+[![Gmail Badge](https://img.shields.io/badge/-samucsg@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:samucacsg@gmail.com)
