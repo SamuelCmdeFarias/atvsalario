@@ -26,7 +26,7 @@
         }
         input[type="text"],
         input[type="submit"] {
-            width: calc(100% - 22px); /* Ajuste para compensar a largura da borda */
+            width: calc(100% - 22px);
             padding: 10px;
             margin: 5px 0;
             border: 1px solid #ccc;
